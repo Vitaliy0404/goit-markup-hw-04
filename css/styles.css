@@ -292,11 +292,6 @@ button:focus {
     display: flex;
 }
 
-.img-item:hover,
-.img-item:focus {
-    border:1px solid var(--accent-color-hover);
-}
-
 .description-one {
     padding-top: 60px;
     padding-bottom: 120px;
