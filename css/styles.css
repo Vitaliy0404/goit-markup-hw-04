@@ -3,7 +3,7 @@
     --accent-color-hover: #404BBF;
     --title-color:  #2E2F42;
     --page-color-text: #434455;
-    --logo-dark-thema: #F4F4FD;
+    --accent-color: #F4F4FD;
     --background-color-light: #FFFFFF;
     --background-color-second: #E5E5E5;
     --dark-theme-text: #E7E9FC;
@@ -361,7 +361,7 @@ button:focus {
 .svg-photo {
     width: 16px;
     height: 16px;
-    fill: currentColor;
+    fill: var(--accent-color);
 }
 
 .titletext-link {
@@ -471,7 +471,7 @@ button:focus {
 .footer-svg {
     width: 24px;
     height: 24px;
-    fill: currentColor;
+    fill: var(--accent-color);
 }
 
 .footer-link {
