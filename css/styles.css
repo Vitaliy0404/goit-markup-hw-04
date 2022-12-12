@@ -430,8 +430,8 @@ button:focus {
     border: 1px solid var(--accent-color);
 }
 
-.customers-svg-image:hover,
-.customers-svg-image:focus {
+.customers-svg-link:hover .customers-svg-image,
+.customers-svg-link:focus .customers-svg-image  { 
     fill: var(--accent-color);
 }
 
