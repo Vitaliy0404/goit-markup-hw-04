@@ -422,12 +422,17 @@ button:focus {
 .customers-svg-image {
     width: 104px;
     height: 56px;
-    fill: currentColor;
+    fill: var(--icon-theme);
 }
 
 .customers-svg-link:hover,
 .customers-svg-link:focus {
     border: 1px solid var(--accent-color);
+}
+
+.customers-svg-image:hover,
+.customers-svg-image:focus {
+    fill: var(--accent-color);
 }
 
 /*footer*/
