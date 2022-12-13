@@ -192,6 +192,7 @@ button:hover,
 button:focus {
     color: var(--background-color-light);
     background-color: var(--accent-color-hover);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .btn {
